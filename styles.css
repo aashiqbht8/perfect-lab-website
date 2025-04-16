@@ -1,0 +1,131 @@
+/* styles.css for Perfect Lab Website */
+
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #0066cc;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-style: italic;
+}
+
+nav {
+  background: #004d99;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: #004080;
+  margin-bottom: 1rem;
+}
+
+button, .whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+button:hover, .whatsapp-button:hover {
+  background-color: #1da851;
+}
+
+footer {
+  background-color: #0066cc;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.testimonial {
+  background-color: #e6f2ff;
+  border-left: 5px solid #0073e6;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.team-member {
+  flex: 1 1 250px;
+  background-color: #f0f8ff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.team-member h4 {
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
